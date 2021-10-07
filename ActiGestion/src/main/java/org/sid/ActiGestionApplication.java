@@ -18,7 +18,7 @@ public class ActiGestionApplication implements CommandLineRunner {
 	@Autowired
 	private UserRepository ur;
 
-	//
+	// test
 	@Bean
 	public BCryptPasswordEncoder getBCryptPasswordEncoder() {
 		return new BCryptPasswordEncoder ( );
